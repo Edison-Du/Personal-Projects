@@ -9,6 +9,7 @@ This is an Discord Bot created using discord.py. It allows the user to play vari
 <li>A slot simulator.</li>
 </ul>
 <h2>Additional Links</h2>
-  
+
+[Discord Texting Service](https://discord.com/)  
 [discord.py Download](https://pypi.org/project/discord.py/)  
 [discord.py Documentation](https://discordpy.readthedocs.io/en/latest/index.html)  
