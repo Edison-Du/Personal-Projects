@@ -1,4 +1,4 @@
-<h1>Discord Economy Bot</h1>
+<h1>Economy Discord Bot</h1>
 This is an Discord Bot created using discord.py. It allows the user to play various minigames and earn in-game currency.
 <h2>Key Features</h2>
 <ul>
