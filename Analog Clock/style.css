@@ -1,0 +1,100 @@
+@font-face {
+    font-family: clockfont;
+    src: url(clock-font.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgb(31, 47, 121);
+}
+
+.clock {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    min-width: 300px;
+    min-height: 300px;
+    background-color: rgb(230, 234, 255);
+    border-radius:50%;
+    border: 30px solid rgb(31, 31, 85);
+    padding: 8px;
+    box-shadow: inset 0 0 10px black, 0 0 10px black;
+}
+
+.numbers {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family:clockfont;
+    font-weight:bold;
+}
+
+.num {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.marker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.marker-line{
+    position: absolute;
+    width:3px;
+    height:10px;
+    left:50%;
+    bottom:99%;
+    background-color: rgba(165, 162, 180, 0.5);
+    transform: translate(-50%);
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+}
+
+#hr {
+    width: 8px;
+    height: 25%;
+    background-color: rgb(45, 44, 49);
+}
+
+#min {
+    width: 8px;
+    height: 35%;
+    background-color: rgb(45, 44, 49);
+}
+
+#sec {
+    width: 3px;
+    height: 45%;
+    background-color: rgb(194, 37, 37);
+}
+
+.dial {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(45, 44, 49);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
