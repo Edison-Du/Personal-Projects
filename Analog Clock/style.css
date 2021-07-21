@@ -1,6 +1,6 @@
 @font-face {
     font-family: clockfont;
-    src: url(clock-font.ttf);
+    src: url(fonts/clock-font.ttf);
 }
 
 * {
