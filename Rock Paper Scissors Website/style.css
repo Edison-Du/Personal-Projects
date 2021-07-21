@@ -38,10 +38,10 @@ body {
     color: white;
     text-align: center;
     font-size: 50px; 
-    font-family: "Showcase Gothic";
+    font-family: "Showcard Gothic";
 }
 
 @font-face {
-    font-family: "Showcase Gothic";
+    font-family: "Showcard Gothic";
     src: url(fonts/showcard\ gothic.ttf);
 }
