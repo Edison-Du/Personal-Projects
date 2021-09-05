@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: e0fbfc;
+    overflow: hidden;
+    font-family: "Open Sans";
+}
+
+.navbar {
+    background-color: #253237;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar > a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.navbar > a:hover, .navbar > a:active {
+    background-color: #5c6b73;
+}
+
+.welcome-text {
+    font-size: 4rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #253237;
+    padding: 4rem;
+    text-align: center;
+}
+
+.welcome-text > div > span {
+    color: #7fbee0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    width: 400px;
+    max-width: 100vh;
+    padding: 1rem;
+}
+
+form > div {
+    text-align: center;
+}
+
+form > * {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+form > :first-child {
+    font-size: 2rem;
+}
+
+input {
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+#form-error {
+    color: red;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
