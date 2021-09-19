@@ -1,6 +1,6 @@
 <?php
     if (!defined("__ACCESSIBLE__")) {
-        header('Location: index.php');
+        header('Location: ../../index.php');
         exit();
     }
 
