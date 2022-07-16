@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(80, 80, 80);
+}
+
+body {
+    background-color: e0fbfc;
+    overflow: hidden;
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.btn-container {
+    font-size: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+    gap: 0.5rem;
+}
+.btn-container > * {
+    display: inline-block;
+    font-size: 1.5rem;
+    flex: 1 1 0;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+input[type="text"] {
+    display: block;
+}
+
+button, input[type="submit"] {
+    color: white;
+    background-color: rgb(75, 165, 255);
+    border: none;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: rgb(28, 116, 204);
+}
+
+.error {
+    padding: 0.5rem;
+    background-color: rgb(241, 125, 125);
+    color: white;
+}

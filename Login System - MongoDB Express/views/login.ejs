@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head.ejs') %>
+
+<body>
+    <form id="loginForm" action="/login" method="POST">
+        <h1>Login</h1>
+        
+        <% if (typeof error !== 'undefined') { %>
+            <div id="error" class="error">
+                <%= error %>
+            </div>
+        <% } %>
+
+        <input 
+            type="text" 
+            placeholder="Username" 
+            name="user"
+            maxlength="16"
+            required>
+        </input>
+        <input 
+            type="password" 
+            placeholder="Password" 
+            name="pass" 
+            minlength="8"
+            maxlength="128"
+            required>
+        </input>
+        <div class="btn-container">
+            <input type="submit"></input>
+            <a href="/">
+                <button type="button">Go back</button>
+            </a>
+        </div
+    </form>
+</body>
+
+</html>
